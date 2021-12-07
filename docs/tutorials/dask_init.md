@@ -52,6 +52,8 @@ the dashboard (blue square).
 
 ## Connect to the cluster
 
+## Connect to the cluster
+
 Now, you can connect to the cluster using a `Dask Client`. Open your notebook,
 select the cell where you want to put the client connection code, and click
 the `Inject Code` button (red circle). Then, you will see the code in your cell,
