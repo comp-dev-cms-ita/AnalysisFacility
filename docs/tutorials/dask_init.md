@@ -14,7 +14,7 @@
  limitations under the License.
 -->
 
-# Hot to start
+# How to start
 
 ## Create a cluster
 
