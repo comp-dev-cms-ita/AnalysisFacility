@@ -13,4 +13,21 @@
  See the License for the specific language governing permissions and
  limitations under the License.
 -->
+# Use Dask interactively as a backend
+Dask can be used as a backend for the distributed execution of ROOT RDataFrame computations. More specifically, ROOT RDataFrame supports distributed execution via the ```ROOT.RDF.Experimental.Distributed``` module.
 
+## Set up
+In a notebook, once a Dask client has been deployed and a Dask client instatiated:
+```
+from dask.distributed import Client
+client = Client(<Dask scheduler address)
+```
+
+you need to declare a distributed DataFrame, passing all the necessary information
+```
+import ROOT
+df = ROOT.RDF.Experimental.Distributed.Dask.RDataFrame(<name of the tree>, 
+                                                       chain, 
+                                                       npartitions=<maximum number of partitions (i.e. Dask tasks)>, 
+                                                       daskclient=client)
+```
