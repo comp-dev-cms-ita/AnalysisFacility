@@ -10,10 +10,10 @@ theme:
     - navigation.tabs.sticky
     - navigation.top
 nav:
-  - Home: "WIP.md"
+  - Home: "home.md"
   - Introduction: "WIP.md"
   - How it works:
-      - Components: "WIP.md"
+      - Components: "how_it_works/components.md"
       - Network: "WIP.md"
       - Data access: "WIP.md"
       - Security: "WIP.md"
@@ -34,6 +34,7 @@ nav:
       - Adding new users:
           - IAM: "dev/iam.md"
           - HTCondor: "dev/htc.md"
+  - FAQs: "faqs.md"
 repo_name: "comp-dev-cms-ita/AnalysisFacility"
 repo_url: "https://github.com/comp-dev-cms-ita/AnalysisFacility.git"
 
