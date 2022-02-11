@@ -14,9 +14,9 @@
  limitations under the License.
 -->
 
-# Use Dask from Python
+# :fontawesome-brands-python: Use Dask from Python
 
-## How to
+## :fontawesome-solid-circle-exclamation: How to
 
 It is possible to create a Dask Cluster using directly a Python script. To start,
 you have to import the proper class and create the related object. The following example
