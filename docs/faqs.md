@@ -1,5 +1,16 @@
 # :material-frequently-asked-questions: Frequently Asked Questions
 
+## :material-chat-question: General
+
+#### 1. How can I report an issue?
+
+Just follows the istrucions in the [issue topic](tutorials/issues.md).
+
+#### 2. How can I suggest an enhancement?
+
+If you want a new feature to be supported, you can
+open an issue [here](https://github.com/comp-dev-cms-ita/dask-remote-jobqueue/issues).
+
 ## :material-web: JupyterLab
 
 ### Tasks and running jobs
