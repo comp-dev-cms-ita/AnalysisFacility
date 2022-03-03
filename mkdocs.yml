@@ -12,10 +12,11 @@ theme:
 nav:
   - Introduction: "introduction.md"
   - How it works:
-      - Components: "how_it_works/components.md"
+      - Architecture and Components: "how_it_works/components.md"
       - Network: "WIP.md"
       - Data access: "WIP.md"
       - Security: "WIP.md"
+      - Resources: "how_it_works/available_resources.md"
   - Quick Start:
       - For users:
           - Using Dask:
