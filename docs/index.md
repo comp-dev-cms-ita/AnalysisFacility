@@ -4,10 +4,10 @@
     <img src="/prototype.gif"></img>
 </p>
 
-This project is a prototype for a data analysis system CMS compliant. The main
+This project is a prototype for a data analysis system, CMS compliant. The main
 targets are:
 
-1. Reducing analysis "**time to insight**" (training time for newcomers included) with an **interactivity** and user-friendly **UI**
+1. Reducing analysis "**time to insight**" (training time for newcomers included) with an **interactive** and user-friendly **UI**
 2. **Single and easily accessible hub** to reduce the complexity and maintenance of multiple and slightly overlapping solutions
 3. **Increasing** the system delivered **throughput** (`evts/s`)
 
