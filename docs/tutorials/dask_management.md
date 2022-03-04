@@ -95,7 +95,9 @@ it and update the list with the indicated button:
 
 ![dask update list](imgs/dask_update_llist.png)
 
-> **NOTE**: if you have issues like `the Dask Lab Extension service is not responding`, consider to restart
-> your Jupyter Lab instance.
+!!! tip
+
+    if you have issues like `the Dask Lab Extension service is not responding`, consider to restart
+    your Jupyter Lab instance.
 
 If you have problem to submit a job with the Batch System, consider to log out to refresh your credentials.

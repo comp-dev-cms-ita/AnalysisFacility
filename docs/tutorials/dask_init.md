@@ -26,17 +26,21 @@ the dashboard (blue square).
 
 ![dask cluster created](imgs/dask_init_created.png)
 
-> **NOTE**: in the `Status` field, you will see the actual state of the
-> cluster creation. The cluster will be ready when the state is `Running`.
-> In that situation, there will be a valid Scheduler address and Dashboard URL:
-> e.g. `localhost:12345`. During the creation, you could see `Status` like `Job is idle`
-> or `Waiting for connection`. In case of error, the `Status` will show the
-> reason for the issue.
->
-> **NOTE**: it is not necessary to click on `Dashboard URL`, because the link
-> is not directly available outside the Dask Lab Extension. To select a cluster,
-> you just have to move the cursor in the item and click when the cursor become a
-> hand.
+!!! info
+
+    in the `Status` field, you will see the actual state of the
+    cluster creation. The cluster will be ready when the state is `Running`.
+    In that situation, there will be a valid Scheduler address and Dashboard URL:
+    e.g. `localhost:12345`. During the creation, you could see `Status` like `Job is idle`
+    or `Waiting for connection`. In case of error, the `Status` will show the
+    reason for the issue.
+
+!!! attention
+
+    it is not necessary to click on `Dashboard URL`, because the link
+    is not directly available outside the Dask Lab Extension. To select a cluster,
+    you just have to move the cursor in the item and click when the cursor become a
+    hand.
 ## :material-connection: Connect to the cluster
 
 Now, you can connect to the cluster using a `Dask Client`. Open your notebook,
@@ -46,11 +50,13 @@ as shown in the following image with the green square:
 
 ![dask cluster connect](imgs/dask_client_code.png)
 
-> **NOTE**: you can also write that code copying the proper scheduler address
-> shown in the cluster `Scheduler Address`, for example:
-> 
-> ```python
-> from dask.distributed import Client
-> 
-> client = Client("localhost:12345")
-> ```
+!!! tip
+
+    you can also write that code copying the proper scheduler address
+    shown in the cluster `Scheduler Address`, for example:
+
+    ```python
+    from dask.distributed import Client
+
+    client = Client("localhost:12345")
+    ```
