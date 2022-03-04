@@ -18,28 +18,37 @@ Longer term, based on the outcome of all these eventual activities, is then to p
 
 ## Why
 
-There are two main motivations that guide us in this activity. On one side we look at the HL-LHC era where we expect an order of magnitude increase of event rates which means a significantly increased dataset volumes. We expect this will impact not only on data management, meaning that not only that users cannot necessarily keep all their data locally on a laptop but also con Workload Management. About the latter we foreseen that current bath-like model implemented over the GRID might be not enough to provide the necessary computing power for CMS analysis. Or better it could not be effective in term of time to insight ( i.e. time to pubblication ) and could became a limitation even from the perspecives of resource competion. 
-On the other side many advancements technologies wise arise in the last decaded. This is true both regarding data analysis framework ( and libraries ) and also regardin the resource management ( i.e. cloud applications ). Different approachs coming from the industry might become/ are becoming a source of inspirations for our domain. Applying industry standards nowadays available in big data analytics might help us to explore new lands. One obvious example in this respec is the trend in data exploration and analysis based on interactive model ( or quasi interactive ) that stll might represent a huge paradigm shift with respec the batch-like oriented approach we have been used since decades. This is not only about implementing a quick turnaorund but it's a key handle to open the doors to a diffrent pattern in resources usage.
-Note that concretely we don't foreseen and revolution here but rather a smoooth transition toward a hybrid model that likely need to provide and support  both batch and interactive handles. 
+There are two main motivations that guide us in this activity. On one side we look at the HL-LHC era where we expect an order of magnitude increase of event rates which means a significantly increased dataset volumes. We expect this will impact not only on data management, meaning that not only that users cannot necessarily keep all their data locally on a laptop, but also con Workload Management. About the latter, we foresaw that the current bath-like model implemented over the GRID might be not enough to provide the necessary computing power for CMS analysis. Or better, it could not be effective in terms of time to insight (i.e. time to publication) and could become a limitation even from the perspectives of resource completion.
 
-Last but not least, there is also a third aspect worth to be mentioned. Such a project allow to build, again not resources wise, a national pool of resource that any physicist might like to access to run data analysis. From a user perspecive this is something like any other classical batch system. 
+On the other side, many advancements in technologies wise arise in the last decade. This is true both regarding data analysis framework (and libraries) and also regarding the resource management (i.e. cloud applications). Different approaches coming from the industry might become/are becoming a source of inspirations for our domain. Applying industry standards nowadays available in big data analytics might help us to explore new lands. One obvious example in this respect is the trend in data exploration and analysis based on interactive model (or quasi interactive) that still might represent a huge paradigm shift with respect to the batch-like oriented approach we have been used since decades. This is not only about implementing a quick turnaround, but it's a key handle to open the doors to a different pattern in resources usage.
 
-## Technlogical Background and possible sinergies 
-Most of the technology pillars of the project come from R&D developments made by INFN in several distinct initiatives developed during the past few years. To mention a few of them we have had [INDIGO-DataCloud](url), [EOSC-Hub](url), [ESCAPE](url) that provided us the fundations from cloud development to DataLake implementation and of course the solution for integrating data and compute. Resource integration experience gained with "Prace access grant" has also a very important role because gave us the concrete opportunity to test innovative solutions for accessing and using heterogeneus resource setups. A very important aspect to highlight is that, all these developments are not experiment specific and thus the pillars are not tight to any specific computing model. There is a clear serpartion, at all levels, betweek experiment specific, possibly legacy, integration and the underlying system. This is a clear added value. 
+Note that concretely we don't foresee and revolution here, but rather a smooth transition toward a hybrid model that likely need to provide and support  both batch and interactive handles.
 
-Regarding the sinergies there is plenty of opportunities, spanning from [INFN-Cloud](https://www.cloud.infn.it/) project to Multi-Experiment evaluation, passing through collaboration with initiatives for further integration of HPC and Cloud ( i.e. the continoum ) whithin ongoing initiatives with CINECA but also collaboration with anaysis frameworks developers such as the current collaboration established with [ROOT RDF](url) team. 
-Regardin the HPC it is about interactve data processing which thing become even more interesting when we start caring about integration ML based workflows. 
+Last but not least, there is also a third aspect worth to be mentioned. Such a project allow building, again not resources wise, a national pool of resource that any physicist might like to access to run data analysis. From a user perspective, this is something like any other classical batch system.
 
-## State of the Art 
-Discussions about possible strategies to build such faciliies for analysis become nowadays a hot topic. Here we aim to provide a list of initiatives, within CMS Collaboration, ad different level of maturity, that are actively proposing and comparing solutions: 
+## Technological Background and possible synergies
+
+Most of the technology pillars of the project come from R&D developments made by INFN in several distinct initiatives developed during the past few years. To mention a few of them we have had [INDIGO-DataCloud](url), [EOSC-Hub](url), [ESCAPE](url) that provided us the foundations from cloud development to DataLake implementation and of course the solution for integrating data and compute. Resource integration experience gained with "PRACE access grant" has also a very important role because it gave us the concrete opportunity to test innovative solutions for accessing and using heterogeneous resource setups. A very significant aspect to highlight is that, all these developments are not experiment specific and thus the pillars are not tight to any specific computing model. There is a clear separation, at all levels, between experiment specific, possibly legacy, integration and the underlying system. This is a clear added-value.
+
+Regarding the synergies there are plenty of opportunities, spanning from [INFN-Cloud](https://www.cloud.infn.it/) project to Multi-Experiment evaluation, passing through collaboration with initiatives for further integration of HPC and Cloud (i.e. the continuum) within ongoing initiatives with CINECA but also collaboration with analysis frameworks developers such as the current collaboration established with [ROOT RDF](url) team. 
+Regarding the HPC it is about interactive data processing which thing become even more interesting when we start caring about integration ML based workflows.
+
+## State of the Art
+
+Discussions about possible strategies to build such facilities for analysis become nowadays a hot topic. Here we aim to provide a list of initiatives, within CMS Collaboration, ad different level of maturity, that are actively proposing and comparing solutions:
 
 - Coffea Casa @ UNL
 - AF @ MIT - Infrastructure
 - AF @ Purdue Status and Plans
-- AF at CIEMAT 
+- AF at CIEMAT
 - Elastic Analysis Facility @ FNAL
-- SWAN @CERN
+- SWAN @ CERN
 
-## List of talks 
+## List of talks
 
-- add here all the presentation done. Perhaps list all the forum where this matter are discussed. 
+ <span style="color:red;font-size: large;font-weight: bold;">add here all the presentation done. Perhaps list all the forum where this matter are discussed.</span>
+
+- _"INFN AF DEMO: The VBS analysis example"_, CMS Week, 26-Jan-2022
+- _"A prototype for interactive analysis at INFN"_, PPP Meeting, Nov-2021
+- _"A prototype for interactive analysis at INFN"_, CMS ATTF Meeting, Oct-2021
+
