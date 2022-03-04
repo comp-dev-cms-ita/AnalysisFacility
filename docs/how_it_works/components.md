@@ -29,9 +29,33 @@ All the central service, as well as the seed of local resources for quick develo
 Summarizing all the resources and pieces needed to construct the described architecture,
 we have the following components:
 
-- A **[k8s](https://kubernetes.io/) cluster** where the JupyterHub and JupyterLabs are managed
-- The **HTCondor central components**, namely Collector, Negotiator, CCB and Schedd, run on top of K8s and are responsible to manage any workernode and to dispatch Dask jobs ( master and workernode ). 
-- A custom derived plugin for **Dask jobqueue**: [repository](https://github.com/comp-dev-cms-ita/dask-remote-jobqueue)
-- A custom **Dask labextension** to support the end-users transparently: [repository](https://github.com/comp-dev-cms-ita/dask-labextension)
-- A **forwarder service** for the cluster connections
-- A **controller service** to interact with che Dask Scheduler inside the cluster
+- A **[k8s](https://kubernetes.io/) cluster**
+
+    > This cluster manages the JupyterHub service and the relative JupyterLabs of the
+    > users
+
+- The **HTCondor central components**
+
+    > namely Collector, Negotiator, CCB and Schedd, run on top of K8s and are responsible 
+    > to manage any workernode and to dispatch Dask jobs ( master and workernode ). 
+
+- A custom derived plugin for **Dask jobqueue** ([repository](https://github.com/comp-dev-cms-ita/dask-remote-jobqueue))
+
+    > This plugin extens the regulare Dask remote jobqueue to support an HTCondor cluster
+    > with specific requirements. Also, it enables the Dask scheduler to be launched
+    > in the cluster and interact with it.
+
+- A custom **Dask labextension** ([repository](https://github.com/comp-dev-cms-ita/dask-labextension))
+
+    > An update of the official Dask Labextension to support the end-users transparently
+    > with the previously mentioned custom Dask remote jobqueue plugin.
+
+- A **forwarder service**
+
+    > Service that allows the Dask component inside the HTCondor Cluster, such as
+    > the Dask Scheduler, to be reachable from the JupyterLab instances of the users
+
+- A **controller service**
+
+    > This service manages the interaction between the Dask Labextension in the
+    > JupyterLab instance of the user and the Dask Scheduler inside the cluster
