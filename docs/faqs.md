@@ -35,5 +35,5 @@ This presents the same situation of Question `#1`
 In this section there are questions about the Dask framework and cluster management.
 #### 1. Is it possible to change the scheduler or the dask worker flavor?
 
-With the image version `v1.0.0` is it not possible to change the default flavor of the
+With the image version `v1.0.1` is it not possible to change the default flavor of the
 scheduler and the worker jobs directly from the UI.
