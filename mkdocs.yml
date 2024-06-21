@@ -20,6 +20,7 @@ nav:
   - Quick Start:
       - Requirements: "tutorials/reqs.md"
       - SSH access to UI: "tutorials/ssh_access.md"
+      - Frameworks available: "tutorials/frameworks.md"
       - User-customized images: "tutorials/user_defined_image.md"
       - Using Dask:
           - Initialization: "tutorials/dask/dask_init.md"
