@@ -12,6 +12,7 @@ Starting from those images, the following frameworks are also available:
 - [mkShapesRDF](https://gitlab.cern.ch/cms-analysis/general/mkShapesRDF) (depeding on the ROOT base image)
 - [PocketCoffea](https://gitlab.cern.ch/cms-analysis/general/PocketCoffea) (depending on the Coffea base image)
 
+> :exclamation: These features are available from the `ghcr.io/comp-dev-cms-ita/jupyterlab:AF20-alma9-v0.0.8` Jupyter Lab image version onwards.
 ## How to use them
 
 ### Creating the DASK cluster
